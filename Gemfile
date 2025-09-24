@@ -3,9 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.3"
 
-# Logger gem のバージョンを固定して Rails のエラーを回避
-gem "logger", "~> 1.5", require: false
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8", ">= 7.0.8.7"
 
